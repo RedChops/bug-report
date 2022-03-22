@@ -221,7 +221,7 @@ return [
     'swoole' => [
         'options' => [
             'enable_coroutine' => true,
-            'hook_flags' => SWOOLE_HOOK_ALL,
+            'hook_flags' => SWOOLE_HOOK_FILE,
         ]
     ]
 ];
