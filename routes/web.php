@@ -19,4 +19,5 @@ Route::get('/', function () {
 
 Route::get('/test', function () {
     sleep(1);
+    return "Test" . PHP_EOL;
 });
